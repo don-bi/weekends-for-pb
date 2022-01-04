@@ -61,6 +61,12 @@ header ul{
     background: url(bg.jpg);
     background-size: cover;
 }
+.logoimg{
+    display: block;
+    padding-top: 200px;
+    margin: auto;
+    width: 25%;
+}
 header.sticky .logo,
 header.sticky ul li a{
     color: #6562bf; 
@@ -97,11 +103,16 @@ header ul li a:hover{
     margin: 15px 0px;
     transition: 0.6s
 }
+.sticky:focus .ani-drop,
+.sticky:focus-within .ani-drop,
+.sticky:hover .ani-drop{
+    transform: translateY(0.8em);
+}
 
 .sticky .ani-drop li{
     margin: 0px 0px;
     background-color: #fff;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 
